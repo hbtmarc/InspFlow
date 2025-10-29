@@ -1,0 +1,7 @@
+{
+  "DataEntityMetadataJson": {
+    "{BA2977B9-8E33-46D6-9371-306369C0C06B}": "{\"name\":\"{BA2977B9-8E33-46D6-9371-306369C0C06B}\",\"title\":\"Impeditivos_LV\",\"x-ms-permission\":\"read-write\",\"x-ms-capabilities\":{\"sortRestrictions\":{\"sortable\":true},\"filterRestrictions\":{\"filterable\":true},\"filterFunctionSupport\":[\"eq\",\"ne\",\"substringof\",\"contains\",\"startswith\",\"endswith\"]},\"schema\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"ImpeditivoLV\":{\"type\":\"string\",\"title\":\"ImpeditivoLV\",\"x-ms-sort\":\"none\",\"x-ms-capabilities\":{\"filterFunctions\":[\"eq\",\"ne\",\"substringof\",\"contains\",\"startswith\",\"endswith\"]},\"x-ms-permission\":\"read-write\"},\"__PowerAppsId__\":{\"type\":\"string\",\"title\":\"__PowerAppsId__\",\"x-ms-sort\":\"none\",\"x-ms-capabilities\":{\"filterFunctions\":[\"eq\",\"ne\",\"substringof\",\"contains\",\"startswith\",\"endswith\"]},\"x-ms-keyOrder\":1,\"x-ms-keyType\":\"primary\",\"x-ms-permission\":\"read-only\"}}}}}"
+  },
+  "EntityName": "Impeditivos_LV",
+  "TableName": "{BA2977B9-8E33-46D6-9371-306369C0C06B}"
+}

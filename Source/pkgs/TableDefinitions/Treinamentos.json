@@ -1,0 +1,7 @@
+{
+  "DataEntityMetadataJson": {
+    "{F067970B-7025-48DD-88E6-B34D7314F94F}": "{\"name\":\"{F067970B-7025-48DD-88E6-B34D7314F94F}\",\"title\":\"Treinamentos\",\"x-ms-permission\":\"read-write\",\"x-ms-capabilities\":{\"sortRestrictions\":{\"sortable\":true},\"filterRestrictions\":{\"filterable\":true},\"filterFunctionSupport\":[\"eq\",\"ne\",\"substringof\",\"contains\",\"startswith\",\"endswith\"]},\"schema\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"Treinamento\":{\"type\":\"string\",\"title\":\"Treinamento\",\"x-ms-sort\":\"none\",\"x-ms-capabilities\":{\"filterFunctions\":[\"eq\",\"ne\",\"substringof\",\"contains\",\"startswith\",\"endswith\"]},\"x-ms-permission\":\"read-write\"},\"Descrição\":{\"type\":\"string\",\"title\":\"Descrição\",\"x-ms-sort\":\"none\",\"x-ms-capabilities\":{\"filterFunctions\":[\"eq\",\"ne\",\"substringof\",\"contains\",\"startswith\",\"endswith\"]},\"x-ms-permission\":\"read-write\"},\"__PowerAppsId__\":{\"type\":\"string\",\"title\":\"__PowerAppsId__\",\"x-ms-sort\":\"none\",\"x-ms-capabilities\":{\"filterFunctions\":[\"eq\",\"ne\",\"substringof\",\"contains\",\"startswith\",\"endswith\"]},\"x-ms-keyOrder\":1,\"x-ms-keyType\":\"primary\",\"x-ms-permission\":\"read-only\"}}}}}"
+  },
+  "EntityName": "Treinamentos",
+  "TableName": "{F067970B-7025-48DD-88E6-B34D7314F94F}"
+}

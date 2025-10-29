@@ -1,0 +1,10 @@
+[
+  {
+    "ApiId": "/providers/microsoft.powerapps/apis/shared_logicflows",
+    "FlowNameId": "59266cdb-58e6-4165-b306-73f77c04c4b5",
+    "Name": "Cria_Lista_Equipamentos_Padrao",
+    "ServiceKind": "ConnectedWadl",
+    "Type": "ServiceInfo",
+    "WorkflowEntityId": "250cb35f-d146-f011-877a-0022483793c9"
+  }
+]

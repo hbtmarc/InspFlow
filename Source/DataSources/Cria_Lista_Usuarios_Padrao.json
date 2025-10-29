@@ -1,0 +1,10 @@
+[
+  {
+    "ApiId": "/providers/microsoft.powerapps/apis/shared_logicflows",
+    "FlowNameId": "50afa204-f075-4daa-87e7-95afd4d9ff02",
+    "Name": "Cria_Lista_Usuarios_Padrao",
+    "ServiceKind": "ConnectedWadl",
+    "Type": "ServiceInfo",
+    "WorkflowEntityId": "2f35ca67-ce46-f011-8779-002248de610a"
+  }
+]

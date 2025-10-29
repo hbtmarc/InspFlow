@@ -1,0 +1,28 @@
+{
+  "QualifiedValues": [
+    {
+      "Kind": "default.cds_mspp_webfile_forms",
+      "Namespace": "Arquivos da Web (Formulários)",
+      "Values": {
+        "Information": "f68f8299-ea37-4c87-8be3-d4727beb98cf"
+      }
+    },
+    {
+      "Kind": "default.cds_sharepointsite_forms",
+      "Namespace": "Sites do SharePoint (Formulários)",
+      "Values": {
+        "Information": "ba6522af-e71b-df11-aa01-00155d2a9006"
+      }
+    },
+    {
+      "Kind": "default.cds_msdyn_dataworkspace_forms",
+      "Namespace": "Data Workspaces (Formulários)",
+      "Values": {}
+    },
+    {
+      "Kind": "default.cds_msdyn_dataflow_forms",
+      "Namespace": "Dataflows (Formulários)",
+      "Values": {}
+    }
+  ]
+}

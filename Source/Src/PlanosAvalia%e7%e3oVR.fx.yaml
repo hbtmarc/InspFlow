@@ -1,0 +1,528 @@
+PlanosAvaliaçãoVR As screen:
+    OnVisible: |-
+        =UpdateContext(
+            {
+                MenuExtendido: true
+            }
+        )
+
+    "'Header2.0_14' As group":
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =40
+        ZIndex: =4
+
+        InspflowIdentificador_14 As groupContainer.manualLayoutContainer:
+            Fill: =RGBA(0, 0, 10, 1)
+            Height: =100
+            RadiusBottomLeft: =0
+            RadiusBottomRight: =0
+            RadiusTopLeft: =0
+            RadiusTopRight: =0
+            Width: =300
+            ZIndex: =1
+
+            Image45_24 As image:
+                Height: =76
+                HoverFill: =ColorFade(RGBA(255, 255, 255, 0.5), -20%)
+                Image: =InspFLOW_Logo
+                OnSelect: |-
+                    =UpdateContext(
+                        {
+                            loading:true
+                        }
+                    );
+                    
+                    Set(
+                        VgReset,true
+                    ); 
+                    Set(
+                        VgEvento,Blank()
+                    ); 
+                    Set(
+                        VgFunção,""
+                    );
+                    Set(
+                        ModoEscuro, false
+                    ); 
+                    Navigate(
+                        LoadingScreen,ScreenTransition.Fade
+                    );
+                    
+                    UpdateContext(
+                        {
+                            loading:false
+                        }
+                    )
+                Tooltip: ="Reiniciar App"
+                Width: =300
+                ZIndex: =1
+
+            Label15_30 As label:
+                Color: =RGBA(255, 255, 255, 1)
+                Height: =24
+                Italic: =true
+                Size: =8
+                Text: =Label15.Text
+                Width: =130
+                Y: =76
+                ZIndex: =2
+
+            Label15_31 As label:
+                Align: =Align.Right
+                Color: =RGBA(255, 255, 255, 1)
+                Height: =24
+                Italic: =true
+                Size: =8
+                Text: ="REGAP/IE"
+                Width: =126
+                X: =174
+                Y: =76
+                ZIndex: =3
+
+        HeaderPadrão_14 As groupContainer.manualLayoutContainer:
+            Fill: =vg_AppTheme.ColorHeader
+            Height: =100
+            RadiusBottomLeft: =0
+            RadiusBottomRight: =0
+            RadiusTopLeft: =0
+            RadiusTopRight: =0
+            Width: =1055
+            X: =300
+            ZIndex: =2
+
+            UserImag_65 As image:
+                Image: =Peão
+                RadiusBottomLeft: =180
+                RadiusBottomRight: =180
+                RadiusTopLeft: =180
+                RadiusTopRight: =180
+                Width: =107
+                ZIndex: =4
+
+            Identificador_21 As group:
+                Height: =5
+                Width: =5
+                X: =-1066
+                Y: =40
+                ZIndex: =5
+
+                UserImag_66 As image:
+                    Image: |+
+                        =UsuáriosdoOffice365.UserPhotoV2(User().Email)
+                        
+                    RadiusBottomLeft: =180
+                    RadiusBottomRight: =180
+                    RadiusTopLeft: =180
+                    RadiusTopRight: =180
+                    Width: =107
+                    ZIndex: =5
+
+                NomeUsuario_5 As label:
+                    Align: =Align.Center
+                    Color: |-
+                        =If(
+                            VgFunção="planos",Color.Black,RGBA(255, 255, 255, 1)
+                        )
+                    FontWeight: |
+                        =If(
+                            VgFunção="planos",FontWeight.Semibold,FontWeight.Lighter
+                        )
+                    Height: =21
+                    Text: =NomeUsuario.Text
+                    X: =107
+                    Y: =27
+                    ZIndex: =7
+
+                PerfilUsuario_5 As label:
+                    Align: =Align.Center
+                    Color: |-
+                        =If(
+                            VgFunção="planos",Color.Black,RGBA(255, 255, 255, 1)
+                        )
+                    FontWeight: |
+                        =If(
+                            VgFunção="planos",FontWeight.Normal,FontWeight.Lighter
+                        )
+                    Height: =26
+                    Italic: =true
+                    Size: =12
+                    Text: =PerfilUsuario.Text
+                    X: =107
+                    Y: =48
+                    ZIndex: =8
+
+            Lbl_PressurizadorTitulo_5 As label:
+                Align: =Align.Center
+                Color: |-
+                    =If(
+                        VgFunção="planos",Color.Black,RGBA(255, 255, 255, 1)
+                    )
+                FontWeight: |-
+                    =If(
+                        VgFunção="planos",FontWeight.Semibold,FontWeight.Lighter
+                    )
+                Height: =48
+                Size: =20
+                Text: =Lbl_PressurizadorTitulo.Text
+                Width: =599
+                X: =257
+                ZIndex: =6
+
+            Lbl_PressurizadorDatas_5 As label:
+                Align: =Align.Center
+                Color: |-
+                    =If(
+                        VgFunção="planos",Color.Black,RGBA(255, 255, 255, 1)
+                    )
+                FontWeight: |
+                    =If(
+                        VgFunção="planos",FontWeight.Normal,FontWeight.Lighter
+                    )
+                Height: =52
+                HoverColor: |
+                    =If(
+                        VgContNotificações>0,
+                        Color.Black,Color.White
+                    )
+                HoverFill: |-
+                    =If(
+                        VgContNotificações>0,ColorFade(RGBA(255, 255, 255, 0.5), -20%),RGBA(0, 0, 0, 0)
+                    )
+                Italic: =true
+                OnSelect: |-
+                    =Switch(VgFunção,
+                        Blank(),false,
+                        "",false,
+                        "planos",false,
+                        "rotina",false,
+                        "laboratório",
+                       If(
+                            VgContNotificações>0,
+                            UpdateContext({VcPopUpMensagensNãoLidas:true}),false
+                       )
+                    )
+                Text: =Lbl_PressurizadorDatas.Text
+                Width: =599
+                X: =257
+                Y: =48
+                ZIndex: =9
+
+        Image43_14 As image:
+            Image: ='Logo_Petrobras (1)'
+            Width: =208
+            X: =1158
+            ZIndex: =3
+
+    MenuDemaisFunções_6 As groupContainer.manualLayoutContainer:
+        Fill: =vg_AppTheme.ColorMenu
+        Height: =668
+        RadiusBottomLeft: =0
+        RadiusBottomRight: =0
+        RadiusTopLeft: =0
+        RadiusTopRight: =0
+        Visible: |-
+            =If(
+               IsBlank(VgFunção),false,true
+            )
+        Width: |-
+            =If(
+                MenuExtendido=true,300,60
+            )
+        Y: =100
+        ZIndex: =5
+
+        Image46_19 As image:
+            Height: =50
+            Image: |-
+                =If(
+                    VgFunção="planos",MenuBlack,menu
+                )
+            Width: =50
+            ZIndex: =158
+
+        Label16_99 As label:
+            Color: |-
+                =If(
+                    VgFunção="planos",Color.Black,RGBA(255, 255, 255, 1)
+                )
+            FontWeight: =FontWeight.Semibold
+            Height: =50
+            Size: =20
+            Text: ="Menu"
+            Visible: =MenuExtendido
+            Width: =252
+            X: =48
+            ZIndex: =159
+
+        BT1_6 As button:
+            BorderColor: |-
+                =Switch(VgFunção,
+                    "laboratório",RGBA(255, 255, 255, 1),
+                    "planos",Color.Black
+                )
+            BorderThickness: =3
+            Color: |-
+                =Switch(VgFunção,
+                    "laboratório",RGBA(255, 255, 255, 1),
+                    "planos",Color.Black
+                )
+            DisabledBorderColor: |-
+                =Switch(VgFunção,
+                    "laboratório",RGBA(255, 255, 255, 1),
+                    "planos",Color.Black
+                )
+            DisabledColor: |-
+                =Switch(VgFunção,
+                    "laboratório",RGBA(255, 255, 255, 1),
+                    "planos",Color.Black
+                )
+            DisabledFill: =vg_AppTheme.ColorHeader
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =45
+            HoverFill: =ColorFade(RGBA(255, 255, 255, 0.5), -20%)
+            OnSelect: |-
+                =Switch(VgFunção,
+                    "laboratório",Navigate(LabFluxoSolicitações,ScreenTransition.Fade),
+                    "planos",Navigate(PlanosVisãoGeral,ScreenTransition.Fade)
+                )
+            PressedBorderColor: =RGBA(255, 255, 255, 1)
+            PressedColor: =RGBA(255, 255, 255, 1)
+            PressedFill: =
+            Text: |-
+                =Switch(VgFunção,
+                    "laboratório","Solicitações",
+                    "planos","Visão Geral"
+                )
+            Visible: =MenuExtendido
+            Width: =270
+            X: =15
+            Y: =50
+            ZIndex: =160
+
+        Bt2_6 As button:
+            BorderColor: |-
+                =Switch(VgFunção,
+                    "laboratório",RGBA(255, 255, 255, 1),
+                    "planos",Color.Black
+                )
+            BorderThickness: =3
+            Color: |-
+                =Switch(VgFunção,
+                    "laboratório",RGBA(255, 255, 255, 1),
+                    "planos",Color.Black
+                )
+            DisabledBorderColor: =Color.Black
+            DisabledColor: =Color.Black
+            DisabledFill: =vg_AppTheme.ColorHeader
+            DisplayMode: |
+                =DisplayMode.Edit
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =45
+            HoverFill: =ColorFade(RGBA(255, 255, 255, 0.5), -20%)
+            OnSelect: |-
+                =Switch(VgFunção,
+                    "laboratório",Navigate(LabPlanner,ScreenTransition.Fade),
+                    "planos",Navigate(PlanosHistórico,ScreenTransition.Fade)
+                )
+            PressedBorderColor: =RGBA(255, 255, 255, 1)
+            PressedColor: =RGBA(255, 255, 255, 1)
+            PressedFill: =
+            Text: |-
+                =Switch(VgFunção,
+                    "laboratório","Tarefas",
+                    "planos","Histórico"
+                )
+            Visible: =MenuExtendido
+            Width: =270
+            X: =15
+            Y: =105
+            ZIndex: =161
+
+        BT3_6 As button:
+            BorderColor: |-
+                =Switch(VgFunção,
+                    "laboratório",RGBA(255, 255, 255, 1),
+                    "planos",Color.Black
+                )
+            BorderThickness: =3
+            Color: |-
+                =Switch(VgFunção,
+                    "laboratório",RGBA(255, 255, 255, 1),
+                    "planos",Color.Black
+                )
+            DisabledBorderColor: =Color.Black
+            DisabledColor: =Color.Black
+            DisabledFill: =vg_AppTheme.ColorHeader
+            DisplayMode: =DisplayMode.Disabled
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =45
+            HoverFill: =ColorFade(RGBA(255, 255, 255, 0.5), -20%)
+            OnSelect: =Navigate(PlanosAvaliaçãoVR,ScreenTransition.Fade)
+            PressedBorderColor: =RGBA(255, 255, 255, 1)
+            PressedColor: =RGBA(255, 255, 255, 1)
+            PressedFill: =
+            Text: ="Avaliação de VR"
+            Visible: =MenuExtendido
+            Width: =270
+            X: =15
+            Y: =160
+            ZIndex: =162
+
+        Button1_413 As button:
+            BorderColor: =RGBA(255, 255, 255, 1)
+            BorderThickness: =3
+            DisabledBorderColor: =RGBA(255, 255, 255, 1)
+            DisabledColor: =RGBA(255, 255, 255, 1)
+            DisabledFill: =RGBA(58, 188, 182, 1)
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =45
+            HoverFill: =ColorFade(RGBA(255, 255, 255, 0.5), -20%)
+            OnSelect: =Navigate('FluxodeEND''s2.0',ScreenTransition.Fade)
+            PressedBorderColor: =RGBA(255, 255, 255, 1)
+            PressedColor: =RGBA(255, 255, 255, 1)
+            PressedFill: =
+            Text: ="Fluxo de ENDs"
+            Visible: =false
+            Width: =270
+            X: =15
+            Y: =215
+            ZIndex: =163
+
+        Button1_414 As button:
+            BorderColor: =RGBA(255, 255, 255, 1)
+            BorderThickness: =3
+            DisabledBorderColor: =RGBA(255, 255, 255, 1)
+            DisabledColor: =RGBA(255, 255, 255, 1)
+            DisabledFill: =RGBA(58, 188, 182, 1)
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =45
+            HoverFill: =ColorFade(RGBA(255, 255, 255, 0.5), -20%)
+            OnSelect: =Navigate('FluxodeEquipe2.0',ScreenTransition.Fade)
+            PressedBorderColor: =RGBA(255, 255, 255, 1)
+            PressedColor: =RGBA(255, 255, 255, 1)
+            PressedFill: =
+            Text: ="Fluxo de Equipe"
+            Visible: =false
+            Width: =270
+            X: =15
+            Y: =270
+            ZIndex: =164
+
+        Button1_415 As button:
+            BorderColor: =RGBA(255, 255, 255, 1)
+            BorderThickness: =3
+            DisabledBorderColor: =RGBA(255, 255, 255, 1)
+            DisabledColor: =RGBA(255, 255, 255, 1)
+            DisabledFill: =RGBA(58, 188, 182, 1)
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =45
+            HoverFill: =ColorFade(RGBA(255, 255, 255, 0.5), -20%)
+            OnSelect: =Navigate('FluxodeInspeção2.0',ScreenTransition.Fade)
+            PressedBorderColor: =RGBA(255, 255, 255, 1)
+            PressedColor: =RGBA(255, 255, 255, 1)
+            PressedFill: =
+            Text: ="Fluxo de Inspeção"
+            Visible: =false
+            Width: =270
+            X: =15
+            Y: =325
+            ZIndex: =165
+
+        Button1_416 As button:
+            BorderColor: =RGBA(255, 255, 255, 1)
+            BorderThickness: =3
+            DisabledBorderColor: =RGBA(255, 255, 255, 1)
+            DisabledColor: =RGBA(255, 255, 255, 1)
+            DisabledFill: =RGBA(58, 188, 182, 1)
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =45
+            HoverFill: =ColorFade(RGBA(255, 255, 255, 0.5), -20%)
+            OnSelect: |-
+                =Launch("https://app.powerbi.com/groups/4d2b7bb8-d9a0-486f-b57d-0493f1c5820b/reports/76e69748-f654-49b9-8fbd-757831309caa?ctid=5b6f6241-9a57-4be4-8e50-1dfa72e79a57&pbi_source=linkShare")
+            PressedBorderColor: =RGBA(255, 255, 255, 1)
+            PressedColor: =RGBA(255, 255, 255, 1)
+            PressedFill: =
+            Text: ="Painel Gerencial PBI"
+            Visible: =false
+            Width: =270
+            X: =15
+            Y: =440
+            ZIndex: =167
+
+        Button1_417 As button:
+            BorderColor: =RGBA(255, 255, 255, 1)
+            BorderThickness: =3
+            DisabledBorderColor: =RGBA(255, 255, 255, 1)
+            DisabledColor: =RGBA(255, 255, 255, 1)
+            DisabledFill: =RGBA(58, 188, 182, 1)
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =45
+            HoverFill: =ColorFade(RGBA(255, 255, 255, 0.5), -20%)
+            OnSelect: |-
+                =Launch("https://petrobrasbr-my.sharepoint.com/:wb:/r/personal/rafaelreis_petrobras_com_br/Documents/Whiteboards/Hub%20Paradas%202024%20-%20REGAP-IE%20-%20U-613.whiteboard?d=w7390cb27396e441caa4285f616404b93&csf=1&web=1&e=QtLoAH")
+            PressedBorderColor: =RGBA(255, 255, 255, 1)
+            PressedColor: =RGBA(255, 255, 255, 1)
+            PressedFill: =
+            Text: ="Hub de Parada"
+            Visible: =false
+            Width: =270
+            X: =15
+            Y: =495
+            ZIndex: =168
+
+        TrocaEqpto_9 As button:
+            BorderThickness: =0
+            Color: =RGBA(0, 0, 0, 1)
+            DisabledFill: =RGBA(0, 0, 0, 0)
+            Fill: =RGBA(0, 0, 0, 0)
+            FontWeight: =FontWeight.Normal
+            Height: =50
+            HoverFill: =ColorFade(RGBA(255, 255, 255, 0.5), -20%)
+            Italic: =true
+            OnSelect: |-
+                =UpdateContext(
+                    {
+                        MenuExtendido: false
+                    }
+                )
+            PressedFill: =ColorFade(RGBA(255, 255, 255, 1), -20%)
+            RadiusBottomLeft: =0
+            RadiusBottomRight: =0
+            RadiusTopLeft: =0
+            RadiusTopRight: =0
+            Size: =10
+            Text: =
+            VerticalAlign: =VerticalAlign.Bottom
+            Visible: =MenuExtendido
+            Width: =50
+            ZIndex: =169
+
+        TrocaEqpto_10 As button:
+            BorderThickness: =0
+            Color: =RGBA(0, 0, 0, 1)
+            DisabledFill: =RGBA(0, 0, 0, 0)
+            Fill: =RGBA(0, 0, 0, 0)
+            FontWeight: =FontWeight.Normal
+            Height: =85
+            HoverFill: =ColorFade(RGBA(255, 255, 255, 0.5), -20%)
+            Italic: =true
+            OnSelect: |-
+                =UpdateContext(
+                    {
+                        MenuExtendido: true
+                    }
+                )
+            PressedFill: =ColorFade(RGBA(255, 255, 255, 1), -20%)
+            RadiusBottomLeft: =0
+            RadiusBottomRight: =0
+            RadiusTopLeft: =0
+            RadiusTopRight: =0
+            Size: =9
+            Text: ="Extender Menu"
+            VerticalAlign: =VerticalAlign.Bottom
+            Visible: =!MenuExtendido
+            Width: =60
+            ZIndex: =170
+

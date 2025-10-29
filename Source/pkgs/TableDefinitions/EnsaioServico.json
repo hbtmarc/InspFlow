@@ -1,0 +1,7 @@
+{
+  "DataEntityMetadataJson": {
+    "{6DA76687-F916-4F8E-962A-A2EEF8DC9169}": "{\"name\":\"{6DA76687-F916-4F8E-962A-A2EEF8DC9169}\",\"title\":\"EnsaioServico\",\"x-ms-permission\":\"read-write\",\"x-ms-capabilities\":{\"sortRestrictions\":{\"sortable\":true},\"filterRestrictions\":{\"filterable\":true},\"filterFunctionSupport\":[\"eq\",\"ne\",\"substringof\",\"contains\",\"startswith\",\"endswith\"]},\"schema\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"Ensaios/Serviços\":{\"type\":\"string\",\"title\":\"Ensaios/Serviços\",\"x-ms-sort\":\"none\",\"x-ms-capabilities\":{\"filterFunctions\":[\"eq\",\"ne\",\"substringof\",\"contains\",\"startswith\",\"endswith\"]},\"x-ms-permission\":\"read-write\"},\"__PowerAppsId__\":{\"type\":\"string\",\"title\":\"__PowerAppsId__\",\"x-ms-sort\":\"none\",\"x-ms-capabilities\":{\"filterFunctions\":[\"eq\",\"ne\",\"substringof\",\"contains\",\"startswith\",\"endswith\"]},\"x-ms-keyOrder\":1,\"x-ms-keyType\":\"primary\",\"x-ms-permission\":\"read-only\"}}}}}"
+  },
+  "EntityName": "EnsaioServico",
+  "TableName": "{6DA76687-F916-4F8E-962A-A2EEF8DC9169}"
+}

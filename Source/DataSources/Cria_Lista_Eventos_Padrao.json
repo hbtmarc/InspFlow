@@ -1,0 +1,10 @@
+[
+  {
+    "ApiId": "/providers/microsoft.powerapps/apis/shared_logicflows",
+    "FlowNameId": "7e3f832f-007a-42b5-ba08-8b791d37408b",
+    "Name": "Cria_Lista_Eventos_Padrao",
+    "ServiceKind": "ConnectedWadl",
+    "Type": "ServiceInfo",
+    "WorkflowEntityId": "09ac4621-d446-f011-877a-0022483793c9"
+  }
+]

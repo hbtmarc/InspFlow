@@ -1,0 +1,7 @@
+{
+  "DataEntityMetadataJson": {
+    "{395F7478-108F-4D40-8241-5BA1C66B7DA1}": "{\"name\":\"{395F7478-108F-4D40-8241-5BA1C66B7DA1}\",\"title\":\"EtapasInspeção\",\"x-ms-permission\":\"read-write\",\"x-ms-capabilities\":{\"sortRestrictions\":{\"sortable\":true},\"filterRestrictions\":{\"filterable\":true},\"filterFunctionSupport\":[\"eq\",\"ne\",\"substringof\",\"contains\",\"startswith\",\"endswith\"]},\"schema\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"Nome_x003a_\":{\"type\":\"string\",\"title\":\"Nome:\",\"x-ms-sort\":\"none\",\"x-ms-capabilities\":{\"filterFunctions\":[\"eq\",\"ne\",\"substringof\",\"contains\",\"startswith\",\"endswith\"]},\"x-ms-permission\":\"read-write\"},\"Descrição_x003a_\":{\"type\":\"string\",\"title\":\"Descrição:\",\"x-ms-sort\":\"none\",\"x-ms-capabilities\":{\"filterFunctions\":[\"eq\",\"ne\",\"substringof\",\"contains\",\"startswith\",\"endswith\"]},\"x-ms-permission\":\"read-write\"},\"__PowerAppsId__\":{\"type\":\"string\",\"title\":\"__PowerAppsId__\",\"x-ms-sort\":\"none\",\"x-ms-capabilities\":{\"filterFunctions\":[\"eq\",\"ne\",\"substringof\",\"contains\",\"startswith\",\"endswith\"]},\"x-ms-keyOrder\":1,\"x-ms-keyType\":\"primary\",\"x-ms-permission\":\"read-only\"}}}}}"
+  },
+  "EntityName": "EtapasInspeção",
+  "TableName": "{395F7478-108F-4D40-8241-5BA1C66B7DA1}"
+}

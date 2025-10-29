@@ -1,0 +1,10 @@
+[
+  {
+    "ApiId": "/providers/microsoft.powerapps/apis/shared_logicflows",
+    "FlowNameId": "144fe131-9096-44cb-97ed-9360861d2ca3",
+    "Name": "CriaçãodeListasPadrão",
+    "ServiceKind": "ConnectedWadl",
+    "Type": "ServiceInfo",
+    "WorkflowEntityId": "382e6f7c-28b7-ef11-a72f-000d3a88b215"
+  }
+]

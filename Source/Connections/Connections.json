@@ -1,0 +1,596 @@
+{
+  "2d832189-57f5-40f8-a478-183742c6c07a": {
+    "appActions": [
+      "Run"
+    ],
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "Fluxos lógicos",
+      "iconUri": "https://conn-afd-prod-endpoint-bmc9bqahasf3grgk.b01.azurefd.net/v1.0.1766/1.0.1766.4325/logicflows/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_logicflows",
+      "parameterHints": {
+        "3dfcae1f-adbc-422f-b02f-d7346a907770": {
+          "value": "shared_sharepointonline-1"
+        },
+        "8faf664f-37e9-4268-a99c-2dcfc65c1f39": {
+          "value": "shared_sharepointonline"
+        },
+        "a38f58e6-660b-4749-9721-52386c5e62ff": {
+          "value": "shared_sharepointonline-1"
+        },
+        "workflowDisplayName": {
+          "value": "Cria_Lista_Equipamentos_Padrao"
+        },
+        "workflowEntityId": {
+          "value": "250cb35f-d146-f011-877a-0022483793c9"
+        },
+        "workflowName": {
+          "value": "de79b7ae-d312-1374-8a4f-16d41d7df6ba"
+        }
+      },
+      "parameterHintsV2": {
+        "shared_sharepointonline": {
+          "value": "a38f58e6-660b-4749-9721-52386c5e62ff"
+        },
+        "shared_sharepointonline-1": {
+          "value": "a38f58e6-660b-4749-9721-52386c5e62ff"
+        },
+        "workflowDisplayName": {
+          "value": "Cria_Lista_Equipamentos_Padrao"
+        },
+        "workflowEntityId": {
+          "value": "250cb35f-d146-f011-877a-0022483793c9"
+        },
+        "workflowName": {
+          "value": "de79b7ae-d312-1374-8a4f-16d41d7df6ba"
+        }
+      }
+    },
+    "datasets": {},
+    "dataSources": [
+      "Cria_Lista_Equipamentos_Padrao"
+    ],
+    "dependencies": {
+      "shared_sharepointonline": "a38f58e6-660b-4749-9721-52386c5e62ff",
+      "shared_sharepointonline-1": "a38f58e6-660b-4749-9721-52386c5e62ff"
+    },
+    "dependents": [],
+    "id": "2d832189-57f5-40f8-a478-183742c6c07a"
+  },
+  "3431f91f-02ee-418c-a019-e8e9467dc4e1": {
+    "appActions": [
+      "Run"
+    ],
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "Fluxos lógicos",
+      "iconUri": "https://conn-afd-prod-endpoint-bmc9bqahasf3grgk.b01.azurefd.net/v1.0.1766/1.0.1766.4325/logicflows/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_logicflows",
+      "parameterHints": {
+        "3dfcae1f-adbc-422f-b02f-d7346a907770": {
+          "value": "shared_sharepointonline-1"
+        },
+        "8faf664f-37e9-4268-a99c-2dcfc65c1f39": {
+          "value": "shared_sharepointonline"
+        },
+        "a38f58e6-660b-4749-9721-52386c5e62ff": {
+          "value": "shared_sharepointonline-1"
+        },
+        "workflowDisplayName": {
+          "value": "Cria_Lista_Usuarios_Padrao"
+        },
+        "workflowEntityId": {
+          "value": "2f35ca67-ce46-f011-8779-002248de610a"
+        },
+        "workflowName": {
+          "value": "ab46634b-c878-bd4b-3c93-0abfbff29a69"
+        }
+      },
+      "parameterHintsV2": {
+        "shared_sharepointonline": {
+          "value": "a38f58e6-660b-4749-9721-52386c5e62ff"
+        },
+        "shared_sharepointonline-1": {
+          "value": "a38f58e6-660b-4749-9721-52386c5e62ff"
+        },
+        "workflowDisplayName": {
+          "value": "Cria_Lista_Usuarios_Padrao"
+        },
+        "workflowEntityId": {
+          "value": "2f35ca67-ce46-f011-8779-002248de610a"
+        },
+        "workflowName": {
+          "value": "ab46634b-c878-bd4b-3c93-0abfbff29a69"
+        }
+      }
+    },
+    "datasets": {},
+    "dataSources": [
+      "Cria_Lista_Usuarios_Padrao"
+    ],
+    "dependencies": {
+      "shared_sharepointonline": "a38f58e6-660b-4749-9721-52386c5e62ff",
+      "shared_sharepointonline-1": "a38f58e6-660b-4749-9721-52386c5e62ff"
+    },
+    "dependents": [],
+    "id": "3431f91f-02ee-418c-a019-e8e9467dc4e1"
+  },
+  "4570ad43-0404-4d82-b111-2a748147f745": {
+    "appActions": [
+      "Run"
+    ],
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "Fluxos lógicos",
+      "iconUri": "https://conn-afd-prod-endpoint-bmc9bqahasf3grgk.b01.azurefd.net/v1.0.1766/1.0.1766.4325/logicflows/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_logicflows",
+      "parameterHints": {
+        "3dfcae1f-adbc-422f-b02f-d7346a907770": {
+          "value": "shared_sharepointonline_1"
+        },
+        "8faf664f-37e9-4268-a99c-2dcfc65c1f39": {
+          "value": "shared_sharepointonline"
+        },
+        "a38f58e6-660b-4749-9721-52386c5e62ff": {
+          "value": "shared_sharepointonline"
+        },
+        "e1e707df-5b0c-46e2-9d86-029a16af68fd": {
+          "value": "shared_office365_1"
+        },
+        "workflowDisplayName": {
+          "value": "Criação de Listas Padrão"
+        },
+        "workflowEntityId": {
+          "value": "382e6f7c-28b7-ef11-a72f-000d3a88b215"
+        },
+        "workflowName": {
+          "value": "6f7e7b17-90ec-5a81-95e5-f5abea0dc35c"
+        }
+      },
+      "parameterHintsV2": {
+        "shared_office365_1": {
+          "value": "e1e707df-5b0c-46e2-9d86-029a16af68fd"
+        },
+        "shared_sharepointonline": {
+          "value": "a38f58e6-660b-4749-9721-52386c5e62ff"
+        },
+        "shared_sharepointonline_1": {
+          "value": "a38f58e6-660b-4749-9721-52386c5e62ff"
+        },
+        "workflowDisplayName": {
+          "value": "Criação de Listas Padrão"
+        },
+        "workflowEntityId": {
+          "value": "382e6f7c-28b7-ef11-a72f-000d3a88b215"
+        },
+        "workflowName": {
+          "value": "6f7e7b17-90ec-5a81-95e5-f5abea0dc35c"
+        }
+      }
+    },
+    "datasets": {},
+    "dataSources": [
+      "CriaçãodeListasPadrão"
+    ],
+    "dependencies": {
+      "shared_office365_1": "e1e707df-5b0c-46e2-9d86-029a16af68fd",
+      "shared_sharepointonline": "a38f58e6-660b-4749-9721-52386c5e62ff",
+      "shared_sharepointonline_1": "a38f58e6-660b-4749-9721-52386c5e62ff"
+    },
+    "dependents": [],
+    "id": "4570ad43-0404-4d82-b111-2a748147f745"
+  },
+  "923461be-16d5-42ae-bc8a-91036bbffca0": {
+    "appActions": [
+      "UserPhoto_V2"
+    ],
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "Usuários do Office 365",
+      "iconUri": "https://conn-afd-prod-endpoint-bmc9bqahasf3grgk.b01.azurefd.net/releases/v1.0.1777/1.0.1777.4410/office365users/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_office365users",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {},
+    "dataSources": [
+      "UsuáriosdoOffice365"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "923461be-16d5-42ae-bc8a-91036bbffca0"
+  },
+  "9d286208-17ac-486f-912d-c0ada09d2eaa": {
+    "appActions": [
+      "ExecuteDatasetQuery"
+    ],
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "Power BI",
+      "iconUri": "https://conn-afd-prod-endpoint-bmc9bqahasf3grgk.b01.azurefd.net/v1.0.1774/1.0.1774.4397/powerbi/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_powerbi",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {},
+    "dataSources": [
+      "PowerBI"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "9d286208-17ac-486f-912d-c0ada09d2eaa"
+  },
+  "9ee5fa4d-09cf-4ec6-a420-8a9f0daf8c2f": {
+    "appActions": [
+      "Run"
+    ],
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "Fluxos lógicos",
+      "iconUri": "https://conn-afd-prod-endpoint-bmc9bqahasf3grgk.b01.azurefd.net/v1.0.1766/1.0.1766.4325/logicflows/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_logicflows",
+      "parameterHints": {
+        "a38f58e6-660b-4749-9721-52386c5e62ff": {
+          "value": "shared_sharepointonline-1"
+        },
+        "workflowDisplayName": {
+          "value": "Cria_Lista_Eventos_Padrao"
+        },
+        "workflowEntityId": {
+          "value": "09ac4621-d446-f011-877a-0022483793c9"
+        },
+        "workflowName": {
+          "value": "bee693dc-5895-f64a-0b53-ada81647f3b3"
+        }
+      },
+      "parameterHintsV2": {
+        "shared_sharepointonline": {
+          "value": "a38f58e6-660b-4749-9721-52386c5e62ff"
+        },
+        "shared_sharepointonline-1": {
+          "value": "a38f58e6-660b-4749-9721-52386c5e62ff"
+        },
+        "workflowDisplayName": {
+          "value": "Cria_Lista_Eventos_Padrao"
+        },
+        "workflowEntityId": {
+          "value": "09ac4621-d446-f011-877a-0022483793c9"
+        },
+        "workflowName": {
+          "value": "bee693dc-5895-f64a-0b53-ada81647f3b3"
+        }
+      }
+    },
+    "datasets": {},
+    "dataSources": [
+      "Cria_Lista_Eventos_Padrao"
+    ],
+    "dependencies": {
+      "shared_sharepointonline": "a38f58e6-660b-4749-9721-52386c5e62ff",
+      "shared_sharepointonline-1": "a38f58e6-660b-4749-9721-52386c5e62ff"
+    },
+    "dependents": [],
+    "id": "9ee5fa4d-09cf-4ec6-a420-8a9f0daf8c2f"
+  },
+  "a38f58e6-660b-4749-9721-52386c5e62ff": {
+    "appActions": [
+      "providers/PowerPlatform.Governance/Operations/Read",
+      "providers/PowerPlatform.Governance/Operations/Write"
+    ],
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "SharePoint",
+      "iconUri": "https://conn-afd-prod-endpoint-bmc9bqahasf3grgk.b01.azurefd.net/v1.0.1769/1.0.1769.4352/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {
+      "https://petrobrasbr.sharepoint.com/teams/REGAPIE/InspFLOW": {
+        "dataSources": {
+          "AcompanhamentoPARADA HDS: U-0106": {
+            "tableName": "a5290266-27ac-4662-b1f2-a2e417e7cce4"
+          },
+          "DadosParada": {
+            "tableName": "05b14b17-a48b-49a8-a54b-26ca38efc831"
+          },
+          "EquipamentosPARADA HDS: U-0106": {
+            "tableName": "a086b191-4ada-41e3-91dc-cfeed1d89b71"
+          },
+          "EventosPARADA HDS: U-0106": {
+            "tableName": "43e0d37e-4bd7-436e-8b3a-6ab2a814318e"
+          },
+          "LabEventos": {
+            "tableName": "1b3fbe8c-56f8-4a2e-a162-de6d5d027468"
+          },
+          "LabSolicitacoes": {
+            "tableName": "60986f98-bd73-45f8-876d-c6d2a43c379e"
+          },
+          "LabTarefas": {
+            "tableName": "b256d8df-9c4f-4a56-bbe1-79d3007d7028"
+          },
+          "LabUsuarios": {
+            "tableName": "33c36ecc-a395-4669-aaf9-6c5cbb4a5c4e"
+          },
+          "OpçãoUsuário": {
+            "tableName": "92191727-ed4c-442a-b38c-47524c8d5899"
+          },
+          "Parada Extra CCF1 (2025): U-0003_Acompanhamento": {
+            "tableName": "4280759f-c2e7-4ae6-877e-edf0b3408356"
+          },
+          "Parada Extra CCF1 (2025): U-0003_Equipamentos": {
+            "tableName": "f5f06996-5760-473c-81f4-3a4d6a134a73"
+          },
+          "Parada Extra CCF1 (2025): U-0003_Eventos": {
+            "tableName": "0ac3bfb0-d63d-42c8-9790-94b57f2febc5"
+          },
+          "Parada Extra CCF1 (2025): U-0003_Usuários": {
+            "tableName": "985ba1f0-803a-4556-a518-271c785ca702"
+          },
+          "PARADA HDS: U-0108_Acompanhamento": {
+            "tableName": "360d671a-1438-4bbd-8e79-2bbc072c18aa"
+          },
+          "PARADA HDS: U-0108_Equipamentos": {
+            "tableName": "062b7a51-bfc6-4f33-ae65-87969465e1a3"
+          },
+          "PARADA HDS: U-0108_Eventos": {
+            "tableName": "602b09eb-6bbb-452d-b741-3695aa09ecb4"
+          },
+          "PARADA HDS: U-0108_Usuários": {
+            "tableName": "60321399-197c-4002-a4d3-c02c1dd6330e"
+          },
+          "PARADA HDS: U-0110_Acompanhamento": {
+            "tableName": "7abbb91b-3f73-4d10-a70f-ab75398d0d15"
+          },
+          "PARADA HDS: U-0110_Equipamentos": {
+            "tableName": "4c8a7917-bd01-4775-8655-d6838a3a562e"
+          },
+          "PARADA HDS: U-0110_Eventos": {
+            "tableName": "188dd92d-baa4-486b-9e99-a34ac4fe1310"
+          },
+          "PARADA HDS: U-0110_Usuários": {
+            "tableName": "440a123b-e057-4ad2-865e-34ad7bad2b56"
+          },
+          "PARADA U-0036_Acompanhamento": {
+            "tableName": "6fcfc831-18ef-44ca-a45d-087693dce057"
+          },
+          "PARADA U-0036_Equipamentos": {
+            "tableName": "5cdc7dd6-7602-4352-a7e4-24030adf70a2"
+          },
+          "PARADA U-0036_Eventos": {
+            "tableName": "38d006a5-67e6-4b51-8ae9-e4eb539ed72f"
+          },
+          "PARADA U-0036_Usuários": {
+            "tableName": "d80308f9-94d7-4c81-9b76-5ef081c9f8de"
+          },
+          "PARADA U-0221_Acompanhamento": {
+            "tableName": "f622dcc8-4357-4b74-99be-41d2ea7e9b6b"
+          },
+          "PARADA U-0221_Equipamentos": {
+            "tableName": "2762d4bd-8799-44d8-bf2d-0873ca5242c1"
+          },
+          "PARADA U-0221_Eventos": {
+            "tableName": "546a3b04-717c-47f4-b863-be701ff0e991"
+          },
+          "PARADA U-0221_Usuários": {
+            "tableName": "ecdf6c4a-5f11-449c-9924-b533f0ccb732"
+          },
+          "PlanosdeInspeção": {
+            "tableName": "7619721d-818d-4e6b-861f-42d41e45a4f9"
+          },
+          "PlanosHistóricodeDanos": {
+            "tableName": "b424c0d0-50eb-4b45-9b18-ffff1dbfd993"
+          },
+          "PlanosMecanismodeDano": {
+            "tableName": "7619721d-818d-4e6b-861f-42d41e45a4f9"
+          },
+          "PlanosRecomandações": {
+            "tableName": "e015c8ec-1200-4fee-b311-a19af68cd3a8"
+          },
+          "UsuáriosPARADA HDS: U-0106": {
+            "tableName": "531df0bc-1627-4eba-87b9-0eeb7b97a4ed"
+          }
+        }
+      },
+      "https://petrobrasbr.sharepoint.com/teams/REGAPIEParadas2024": {
+        "dataSources": {
+          "Acompanhamento U-0613": {
+            "tableName": "9d777bec-b93d-44f6-b219-c714288ace2c"
+          },
+          "Equipamentos U-613": {
+            "tableName": "5ab75a8a-bdac-4d21-85ef-293971e353c2"
+          },
+          "Eventos U-613": {
+            "tableName": "7643f0db-e61b-498f-be21-8758a0227ee0"
+          },
+          "Lista_ZRs_U_613": {
+            "tableName": "00735140-9591-4a4d-9b79-a2c3c4304f0f"
+          },
+          "RelatóriosGINSPEQ": {
+            "tableName": "129eca5c-e620-436b-be9b-6ff1720d436c"
+          },
+          "UsuariosApp": {
+            "tableName": "c9df33ea-80d1-4e46-ba08-e7d0183a55d5"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "Equipamentos U-613",
+      "Eventos U-613",
+      "UsuariosApp",
+      "Acompanhamento U-0613",
+      "Lista_ZRs_U_613",
+      "RelatóriosGINSPEQ",
+      "LabSolicitacoes",
+      "LabTarefas",
+      "LabEventos",
+      "PlanosdeInspeção",
+      "OpçãoUsuário",
+      "LabUsuarios",
+      "PlanosMecanismodeDano",
+      "PlanosHistóricodeDanos",
+      "PlanosRecomandações",
+      "DadosParada",
+      "UsuáriosPARADA HDS: U-0106",
+      "EventosPARADA HDS: U-0106",
+      "EquipamentosPARADA HDS: U-0106",
+      "AcompanhamentoPARADA HDS: U-0106",
+      "PARADA HDS: U-0110_Acompanhamento",
+      "PARADA HDS: U-0110_Equipamentos",
+      "PARADA HDS: U-0110_Eventos",
+      "PARADA HDS: U-0110_Usuários",
+      "PARADA HDS: U-0108_Acompanhamento",
+      "PARADA HDS: U-0108_Equipamentos",
+      "PARADA HDS: U-0108_Eventos",
+      "PARADA HDS: U-0108_Usuários",
+      "PARADA U-0036_Acompanhamento",
+      "PARADA U-0036_Equipamentos",
+      "PARADA U-0036_Eventos",
+      "PARADA U-0036_Usuários",
+      "PARADA U-0221_Acompanhamento",
+      "PARADA U-0221_Equipamentos",
+      "PARADA U-0221_Eventos",
+      "PARADA U-0221_Usuários",
+      "Parada Extra CCF1 (2025): U-0003_Acompanhamento",
+      "Parada Extra CCF1 (2025): U-0003_Equipamentos",
+      "Parada Extra CCF1 (2025): U-0003_Eventos",
+      "Parada Extra CCF1 (2025): U-0003_Usuários"
+    ],
+    "dependencies": {},
+    "dependents": [
+      "3431f91f-02ee-418c-a019-e8e9467dc4e1",
+      "2d832189-57f5-40f8-a478-183742c6c07a",
+      "4570ad43-0404-4d82-b111-2a748147f745",
+      "9ee5fa4d-09cf-4ec6-a420-8a9f0daf8c2f"
+    ],
+    "id": "a38f58e6-660b-4749-9721-52386c5e62ff"
+  },
+  "dc870578-830f-44e4-bf4e-283601e240e4": {
+    "appActions": [
+      "providers/PowerPlatform.Governance/Operations/Read",
+      "providers/PowerPlatform.Governance/Operations/Write"
+    ],
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "Excel Online (Business)",
+      "iconUri": "https://conn-afd-prod-endpoint-bmc9bqahasf3grgk.b01.azurefd.net/releases/v1.0.1777/1.0.1777.4410/excelonlinebusiness/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_excelonlinebusiness",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {
+      "https%253A%252F%252Fpetrobrasbr.sharepoint.com%252Fteams%252FREGAPIE%252FInspFLOW%252F,b%2521IOTY0XvroUiZCKyZBdCRP8l22FZ1mpdEtRF4MiA0WxkqkK2X8NoqSb-5JIOGsNaP,01E4TTWYWTULJ3WRVRCZEYRNPUAIZPU6XS": {
+        "dataSources": {
+          "DadosParada_1": {
+            "tableName": "{6FD21A0B-70F6-4606-BCCE-4D2E5CA2CD68}"
+          },
+          "EtapasInspeção": {
+            "tableName": "{395F7478-108F-4D40-8241-5BA1C66B7DA1}"
+          },
+          "FasesLV": {
+            "tableName": "{5E7E767E-6178-4D31-9F4E-9D3464F47AB2}"
+          }
+        }
+      },
+      "sites%252Fpetrobrasbr.sharepoint.com%252Cd1d8e420-eb7b-48a1-9908-ac9905d0913f%252C56d876c9-9a75-4497-b511-783220345b19,b%2521IOTY0XvroUiZCKyZBdCRP8l22FZ1mpdEtRF4MiA0WxkqkK2X8NoqSb-5JIOGsNaP,01E4TTWYQAKB6CLEHNFVHJFULFBOBO7VYF": {
+        "dataSources": {
+          "ListaZRsU221": {
+            "tableName": "{4F98C31A-51C4-499A-926C-57526793833A}"
+          },
+          "ListaZRsU221_1": {
+            "tableName": "{4F98C31A-51C4-499A-926C-57526793833A}"
+          }
+        }
+      },
+      "sites%252Fpetrobrasbr.sharepoint.com%252Cd1d8e420-eb7b-48a1-9908-ac9905d0913f%252C56d876c9-9a75-4497-b511-783220345b19,b%2521IOTY0XvroUiZCKyZBdCRP8l22FZ1mpdEtRF4MiA0WxkqkK2X8NoqSb-5JIOGsNaP,01E4TTWYRU6EMPUGPTSVBLQJLSGVKL3SEE": {
+        "dataSources": {
+          "ListaZRsU106": {
+            "tableName": "{4F98C31A-51C4-499A-926C-57526793833A}"
+          }
+        }
+      },
+      "sites%252Fpetrobrasbr.sharepoint.com%252Cd1d8e420-eb7b-48a1-9908-ac9905d0913f%252C56d876c9-9a75-4497-b511-783220345b19,b%2521IOTY0XvroUiZCKyZBdCRP8l22FZ1mpdEtRF4MiA0WxkqkK2X8NoqSb-5JIOGsNaP,01E4TTWYSUTE5JYJUHMJAKMPNYCEQOH67X": {
+        "dataSources": {
+          "ListaZRsU0036": {
+            "tableName": "{4F98C31A-51C4-499A-926C-57526793833A}"
+          }
+        }
+      },
+      "sites%252Fpetrobrasbr.sharepoint.com%252Cd1d8e420-eb7b-48a1-9908-ac9905d0913f%252C56d876c9-9a75-4497-b511-783220345b19,b%2521IOTY0XvroUiZCKyZBdCRP8l22FZ1mpdEtRF4MiA0WxkqkK2X8NoqSb-5JIOGsNaP,01E4TTWYUE7FQRRBQISFDL2TSN2U6PY6E7": {
+        "dataSources": {
+          "ListaZRsU110": {
+            "tableName": "{4F98C31A-51C4-499A-926C-57526793833A}"
+          }
+        }
+      },
+      "sites%252Fpetrobrasbr.sharepoint.com%252Cd1d8e420-eb7b-48a1-9908-ac9905d0913f%252C56d876c9-9a75-4497-b511-783220345b19,b%2521IOTY0XvroUiZCKyZBdCRP8l22FZ1mpdEtRF4MiA0WxkqkK2X8NoqSb-5JIOGsNaP,01E4TTWYWP6WNMESLBNNAKM7U6LOWGOPJB": {
+        "dataSources": {
+          "ListaZRsU108": {
+            "tableName": "{4F98C31A-51C4-499A-926C-57526793833A}"
+          }
+        }
+      },
+      "sites%252Fpetrobrasbr.sharepoint.com%252Cd1d8e420-eb7b-48a1-9908-ac9905d0913f%252C56d876c9-9a75-4497-b511-783220345b19,b%2521IOTY0XvroUiZCKyZBdCRP8l22FZ1mpdEtRF4MiA0WxkqkK2X8NoqSb-5JIOGsNaP,01E4TTWYWTULJ3WRVRCZEYRNPUAIZPU6XS": {
+        "dataSources": {
+          "CAT": {
+            "tableName": "{620B7D34-09E6-4230-A522-C47C1A5E8F50}"
+          },
+          "EnsaioServico": {
+            "tableName": "{6DA76687-F916-4F8E-962A-A2EEF8DC9169}"
+          },
+          "Impeditivos_LV": {
+            "tableName": "{BA2977B9-8E33-46D6-9371-306369C0C06B}"
+          },
+          "PerfisUsuario": {
+            "tableName": "{03F3D514-315A-4B7B-AD26-9F6E1EF5097D}"
+          },
+          "TipoEnsaio": {
+            "tableName": "{F8132CD0-7958-412F-B4DE-680EC3AEB159}"
+          },
+          "Treinamentos": {
+            "tableName": "{F067970B-7025-48DD-88E6-B34D7314F94F}"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "FasesLV",
+      "EtapasInspeção",
+      "DadosParada_1",
+      "Treinamentos",
+      "PerfisUsuario",
+      "ListaZRsU106",
+      "TipoEnsaio",
+      "EnsaioServico",
+      "Impeditivos_LV",
+      "CAT",
+      "ListaZRsU110",
+      "ListaZRsU108",
+      "ListaZRsU0036",
+      "ListaZRsU221",
+      "ListaZRsU221_1"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "dc870578-830f-44e4-bf4e-283601e240e4"
+  },
+  "e1e707df-5b0c-46e2-9d86-029a16af68fd": {
+    "appActions": [],
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "Office 365 Outlook",
+      "iconUri": "https://conn-afd-prod-endpoint-bmc9bqahasf3grgk.b01.azurefd.net/releases/v1.0.1777/1.0.1777.4410/office365/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_office365",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {},
+    "dataSources": [],
+    "dependencies": {},
+    "dependents": [
+      "4570ad43-0404-4d82-b111-2a748147f745"
+    ],
+    "id": "e1e707df-5b0c-46e2-9d86-029a16af68fd"
+  }
+}
